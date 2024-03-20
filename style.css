@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;   
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Capture.PNG);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    color: #fff;
+    margin: 5px 5px;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+}
+.navbar{
+    width: 85%;
+    margin: -10px -8px;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 19px;
+    position: fixed;
+    background-color: black;
+    border-radius: 90px;
+    padding: 5px;
+    
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar .btn-login{
+    justify-content: space-between;
+    background-color: aqua;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 3px 3px;
+}
+.blog{
+    color: white;
+    box-sizing: border-box;
+    border: 3px solid skyblue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 30px;
+    position: absolute;
+}
+.contact{
+    padding: 15px 20px ;
+}
+footer{
+    margin-top: 285px;
+}
+
+@media  (max-width: 700px) {
+    .logo{
+        color: #fff;
+        margin: 5px 5px;
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        cursor: pointer;
+    }
+    .navbar ul li{
+        display: block;
+    }
+    .navbar{
+        border-radius: 0;
+        position: absolute;
+        background: grey;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+  }
+  .foot1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+  }
